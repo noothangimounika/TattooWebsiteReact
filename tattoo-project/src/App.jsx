@@ -2,12 +2,19 @@ import './App.css';
 
 
 import React from 'react'
-import Testimonials from './loginComp/Testimonials';
+import EmailValidationForm from './loginComp/EmailValidationForm';
+// import RegisterForm from './loginComp/RegisterForm';
+// import LoginForm from './loginComp/LoginForm';
+// import Testimonials from './loginComp/Testimonials';
 
 const App = () => {
   return (
     <div>
-      <Testimonials />
+      {/* <Testimonials /> */}
+      {/* <LoginForm /> */}
+      {/* <RegisterForm /> */}
+      <EmailValidationForm />
+
     </div>
   )
 }
