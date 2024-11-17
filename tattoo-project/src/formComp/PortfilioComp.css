@@ -1,0 +1,33 @@
+.PortfilioComp-Conatiner{
+    background:black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+}
+.PortfilioComp-Conatiner img{
+    width: 400px;
+    height: 500px;
+
+}
+.PortfilioComp-Conatiner h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.PortfilioComp-Conatiner p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.PortfilioComp-Conatiner button{
+    background-color: #f8133c;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+.PortfilioComp-Conatiner button:hover{
+    transform:scale(1.01);
+}

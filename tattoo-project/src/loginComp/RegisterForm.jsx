@@ -64,7 +64,9 @@ const RegisterForm = () => {
             <input type='password' name='conform_password' placeholder='Conform Password' value={formdata.conform_password} required onChange={handlechange} /> <br />
             <input type="number" name='phone' placeholder='Phone No' value={formdata.phone} required onChange={handlechange} /> <br />  
 
-            <input type="submit" name='submit' className='btn btn-primary'  />
+            <input type="submit" value="Register" name='submit  ' className='btn btn-primary'  />
+
+            {/* <button className='btn btn-primary' type='submit'>Register</button> */}
 
         </form>
         </center>

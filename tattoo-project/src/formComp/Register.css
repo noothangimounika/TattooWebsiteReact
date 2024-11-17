@@ -1,0 +1,137 @@
+.Register-Container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.form h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form{
+    
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-shadow: 10px 10px 10px 10px rgb(221, 220, 220);
+
+}
+/* style={{borderBottom:'2px solid black',borderRadius:'3px'}} */
+.form input{
+    width: 500px;
+    height: 50px;
+   
+    outline: 0;
+    border-width: 0 0 2px;
+    border-radius: 3px;
+    border-color: rgb(172, 169, 169);
+}
+.form ::placeholder{
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#submit{
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+     width: 500px;
+    height: 50px;
+}
+
+
+
+.login-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 1px solid rgb(167, 166, 166); */
+    /* box-shadow: 10px 10px 10px 10px rgb(235, 235, 235); */
+    width: 700px;
+    height: 50px;
+}
+.login-button-div button{
+    background-color: #0d6efd;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.login-button-div p{
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+
+.Login-Container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.Login-Container .form h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.register-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 1px solid rgb(167, 166, 166); */
+    /* box-shadow: 10px 10px 10px 10px rgb(235, 235, 235); */
+    width: 700px;
+    height: 50px;
+}
+.register-button-div button{
+    background-color: #0d6efd;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.register-button-div p{
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+.ForgetPassword-Container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.ForgetPassword-Container h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.EmailVerification-conatainer{
+    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+    
+}
+.EmailVerification-conatainer h1{
+padding-top: 10px;
+    margin-bottom: 20px;
+
+}

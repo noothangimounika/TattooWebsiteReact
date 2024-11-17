@@ -36,7 +36,7 @@ const Testimonials = () => {
             <div className="mt-20"  >
                 <Slider {...settings}>
                     {data.map((item, index) => (
-                        <div key={index} className="bg-white h-[450px] text-black rounded-xl  shadow">
+                        <div key={index} className="bg-white h-[450px]  text-black rounded-xl  shadow">
                             {/* className="h-56 rounded-t-xl  d-flex justify-content-center */}
 
                             <div className="h-56 bg-primary  rounded p-3 shadow-sm d-flex justify-content-center">
@@ -55,6 +55,7 @@ const Testimonials = () => {
         </div>
     )
 }
+
 
 const data = [
     {

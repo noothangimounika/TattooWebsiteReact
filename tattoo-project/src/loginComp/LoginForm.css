@@ -1,5 +1,6 @@
 .LoginForm-container{
-    border: 1px solid rgb(167, 166, 166);
+    /* border: 1px solid rgb(167, 166, 166); */
+    box-shadow: 10px 10px 10px 10px rgb(235, 235, 235);
     width: 400px;
     height: 300px;
     margin: 10px;
@@ -27,7 +28,8 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    border: 1px solid rgb(167, 166, 166);
+    /* border: 1px solid rgb(167, 166, 166); */
+    box-shadow: 10px 10px 10px 10px rgb(235, 235, 235);
     width: 400px;
     height: 50px;
 }

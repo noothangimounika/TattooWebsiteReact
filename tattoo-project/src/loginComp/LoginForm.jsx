@@ -33,7 +33,7 @@ const LoginForm = () => {
 
             <center>
           <div className="register-button-div" >
-          <p>Have an account?</p>
+          <p>If you Have not an account?</p>
           <Link to="/register"><button className='btn btn-primary w-5 '>Register</button></Link>
           </div>
 
