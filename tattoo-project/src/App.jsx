@@ -1,9 +1,11 @@
 import './App.css';
+import DataModule from './DataModule';
 
 
-import React from 'react'
-import PortfilioComp from './formComp/PortfilioComp';
-import ArtistesComp from './formComp/ArtistesComp';
+// import React from 'react'
+// import PortfilioComp from './formComp/PortfilioComp';
+// import ArtistesComp from './formComp/ArtistesComp';
+// import DataModule from './DataModule';
 
 
 // import Register from './formComp/Register';
@@ -16,7 +18,8 @@ import ArtistesComp from './formComp/ArtistesComp';
 // import EmailValidationForm from './loginComp/EmailValidationForm';
 // import RegisterForm from './loginComp/RegisterForm';
 // import LoginForm from './loginComp/LoginForm';
-import Testimonials from './loginComp/Testimonials';
+// import Testimonials from './loginComp/Testimonials';
+// import TattooStyles from './TattooStyles';
 
 
 
@@ -24,7 +27,7 @@ import Testimonials from './loginComp/Testimonials';
 const App = () => {
   return (
     <div>
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <LoginForm /> */}
       {/* <RegisterForm /> */}
       {/* <EmailValidationForm /> */}
@@ -43,7 +46,13 @@ const App = () => {
 
         {/* <PortfilioComp /> */}
         {/* <ArtistesComp /> */}
-      
+
+        {/* <TattooStyles /> */}
+
+        {/* <DataModule /> */}
+
+
+        <DataModule />
 
      
 
