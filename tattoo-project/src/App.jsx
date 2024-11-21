@@ -1,11 +1,18 @@
+// import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import './App.css';
-import DataModule from './DataModule';
+import DesginModul from './DesginModule';
+import SelectProductById from './SelectProductById';
+import Cart from './Cart';
+import { Provider } from 'react-redux';
+
+// import Design from './Design';
 
 
 // import React from 'react'
-// import PortfilioComp from './formComp/PortfilioComp';
-// import ArtistesComp from './formComp/ArtistesComp';
-// import DataModule from './DataModule';
+
+
 
 
 // import Register from './formComp/Register';
@@ -15,11 +22,11 @@ import DataModule from './DataModule';
 // import { Route, Routes } from 'react-router-dom';
 
 
-// import EmailValidationForm from './loginComp/EmailValidationForm';
-// import RegisterForm from './loginComp/RegisterForm';
-// import LoginForm from './loginComp/LoginForm';
-// import Testimonials from './loginComp/Testimonials';
-// import TattooStyles from './TattooStyles';
+
+import Testimonials from './loginComp/Testimonials';
+
+// import PortfilioComp from './formComp/PortfilioComp';
+
 
 
 
@@ -27,15 +34,10 @@ import DataModule from './DataModule';
 const App = () => {
   return (
     <div>
-      {/* <Testimonials /> */}
-      {/* <LoginForm /> */}
-      {/* <RegisterForm /> */}
-      {/* <EmailValidationForm /> */}
+     
+     
 
-      {/* <Register />
-      <Login /> */}
-      {/* <ForgetPassword />
-      <EmailVerification /> */}
+
 
       {/* <Routes>
         <Route path='/' element={<Register />} />
@@ -44,15 +46,29 @@ const App = () => {
         <Route path='/emailverification' element={<EmailVerification />} />
       </Routes> */}
 
+
         {/* <PortfilioComp /> */}
-        {/* <ArtistesComp /> */}
+        {/* <Testimonials /> */}
 
-        {/* <TattooStyles /> */}
-
-        {/* <DataModule /> */}
+       {/* <Design /> */}
 
 
-        <DataModule />
+
+      
+        
+         <Router>
+          <Routes>
+          <Route path='/' element={<DesginModul />} />
+          <Route path='/selectProduct' element={<SelectProductById />} />
+          <Route path="/cart" element={<Cart />} />
+          </Routes>
+       
+       </Router>
+
+     
+          
+
+       
 
      
 
